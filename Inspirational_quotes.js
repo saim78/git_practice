@@ -9,22 +9,21 @@ const randomGen = arr => {
     const numberGen = Math.floor(Math.random()* 3);
     console.log(numberGen);
     let quote = arr[numberGen];
-    return quote;
-    /*
+    //return quote;
     switch(numberGen){
         case 0:
-            return first;
+            return `You Should ${quote}`;
             break;
         case 1: 
-            return second;
+            return `Always ${quote}!!`;
             break;
         case 2: 
-            return third;
+            return `Remember ${quote}!!`;
             break;
         default: 'Suck it Up!!';
             break;
     }
-    */
+    
 };
 
 
